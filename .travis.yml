@@ -4,7 +4,7 @@ language: ruby
 script: "./script/cibuild"
 
 addons:
-  postgresql: '9.6'
+  postgresql: '10'
   chrome: stable
 
 before_install:
